@@ -1,7 +1,7 @@
 from collections import defaultdict
 
 
-def tickets(people):
+def tickets(people: list) -> str:
     cashbox = defaultdict(int)
     for ticket in people:
         if ticket == 25:
